@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>RJ Server</title>
+    <link  rel="icon" href="img/logo.png">
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="logo">
+                        <img src="img/logo1.png"  alt="Logo de la compañia">
+                <div class="contenido-header">
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">VISIÓN	</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">METAS</a></li>
+                            <li><a href= "#contacto"onclick="seleccionar(this)">FODA</a></li>
+                            <li><a href="#prv" onclick="seleccionar(this)">PROYECTO DE VIDA</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                       
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p> 
+                <h2>Soy <span>Ramiro Jauregui</span>, Seminarista</h2>
+                <p class="descripcion">Este es el principio de mi trabajo final de seminario, ¿quieres saber quien soy? solo desliza </p>
+                <a href="#sobremi">Ir a Personalidad</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="tite">
+        <h3 class="titulo-seccio"> Mi personalidad </h3>
+    </section>
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto3.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccio">Sobre Mi</p>
+            <h2>Hola, Soy <span>Ramiro Jauregui</span> </h2>
+            <h3> 17 año</h3> <h3> ¿Quién soy? </h3>
+            <p> Soy un joven adolencentes estudioso enfocado en un futuro y la grandeza de mi esfuezo, enamorado de mi carrera y amante del fútbol </p>
+            <p> Soy respetuoso, antento, horando y cariñoso </p>
+            <!--  <p> Aprendí a hablar antes de cumplir un año, pero hasta que cumplí un año pude estresar a mis padres con placer. Aprendí a caminar y lo que siempre me decían era que hablaba mucho, aprendí a armar rompecabezas, andar en triciclo y en bicicleta.</p> -->
+           
+            
+        </div>
+    </section>
+
+
+    <!-- SECCION S E R V I C I O S -->
+
+    
+    <section id="tit">
+        <h3 class="titulo-seccion"> Visión</h3>
+        <div class="fila">
+  
+    <section id="servicios">
+        <div class="contenedor-foto">
+            <img src="img/foto2.PNG" alt="">
+        </div>
+        <div class="servicios">
+            
+            <h3> ME VEO </h3>
+            <p>  ejerciendo mi profesión como ingeniero en sistemas en una empresa de renombre, trabajandoen el área de sofware y back end, de tal manera que esto me premita aportar todo lo necesario a mi esposa e hijos, y al mismo tiempo mi fe en alto, convencido de que Dios podrá ayudarme a realizar exitosamente mis obligaciones familiares y de trabajo.
+                todo esto unido permitira mi estabilidad económica y emocional ya que desde hoy es una pasión personal.  </p>
+    <!-- <section id="tit">
+    <p class="titulo-seccion">Vision</p>
+    </section>
+    <div class="servicios">
+        <div class="contenedor-foto">
+            <img src="img/foto2.PNG" alt="">
+        </div>
+        <div class="servicios">
+        <h2>Hola, Soy <span>Ramiro Jauregui</span> </h2>
+        <h3> 17 año</h3> <h3> ¿Quién soy? </h3>
+        <p>  ejerciendo mi profesión como ingeniero en sistemas en una empresa de renombre, trabajandoen el área de sofware y back end, de tal manera que esto me premita aportar todo lo necesario a mi esposa e hijos, y al mismo tiempo mi fe en alto, convencido de que Dios podrá ayudarme a realizar exitosamente mis obligaciones familiares y de trabajo.
+            todo esto unido permitira mi estabilidad económica y emocional ya que desde hoy es una pasión personal.  </p>
+       -->
+       </div>
+        </div>
+    </section>    
+
+      <!-- SECCION PORTAFOLIO -->
+      <section id="portfolio">
+        <h3 class="titulo-seccion">Proyecto de vida y Mis Metas</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/m1.jfif" alt="">
+                <div class="info">
+                    <h4>Entro desde casa</h4>
+                    <p>Meta física</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/m2.jfif" alt="">
+                <div class="info">
+                    <h4>Aceptar a mi familia</h4>
+                    <p>Meta familiar</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/m3.jfif" alt="">
+                <div class="info">
+                    <h4>Ganar mi primer trimestre</h4>
+                    <p>Meta Escolar</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/m4.jfif" alt="">
+                <div class="info">
+                    <h4>Seguir entrenando en la escula de fútbol</h4>
+                    <p>Meta física</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/m5.jfif" alt="">
+                <div class="info">
+                    <h4>Ahorrar para mi universidad</h4>
+                    <p>Meta Económica</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/m6.jfif" alt="">
+                <div class="info">
+                    <h4>Trabajar como vacacionista</h4>
+                    <p>Meta Económica</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Estrategias y Aliados-->
+
+    <section id="e-a">
+        <h3 class="titulo-seccion">--Estrategias--</h3>
+        <div class="fila">
+
+            <section id="estrategias">
+                <div class="contenedor-foto">
+                    <img src="img/estrate.jpg" alt="" width="150px">
+            
+    </section>
+
+    <section id="e-a">
+        <h3 class="titulo-seccion">--Aliados--</h3>
+        <div class="fila">
+
+            <section id="aliados">
+                <div class="contenedor-foto">
+                    <img src="img/aliados.jpg" alt="">
+            
+    </section>
+
+
+    <!-- SECCION V A L O R E S -->
+    <div class="contenedor-valores" id="valores">
+        <h3>VALORES </h3>
+        <div class="valores">
+            <div class="info">
+                <p> <span class="lista"> </span>Respetuoso ante el trabajo y la familia</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="valores">
+            <div class="info">
+                <p> <span class="lista"> </span>Colaborador</p>
+                <span class="porcentaje">75%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="valores">
+            <div class="info">
+                <p> <span class="lista"> </span>Comprencion y Cariño</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="valores">
+            <div class="info">
+                <p> <span class="lista"> </span>Responsabilidad financiera</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <section id="prv">
+        <h3 class="titulo-seccion"> Agradecimiento </h3>
+  
+<p> Muchas gracias a Emerzon Soto, nuestro catedratico de seminario a mis padres y mi hermana sin ellos no podria consegui esto ellos me conocen muy bien, gracias a todos los profesores por su paciencia y colaboración en cada momento
+    el no deseparar a ningun alumno y para concluir a mi mejor amigo que es quien me saca una sonriza y mi ancla ante toda la vida muchas gracias :3 
+
+
+    
+</p>
+
+         </section>
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Ramiro Jauregui  -  Marzo / 2023</p>
+        <p>5to Bachillerato en Computacion</p>
+        <div class="redes">
+         
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
